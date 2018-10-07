@@ -1,0 +1,16 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule scianka-wspinaczkowa-gdansk index.html
+RewriteRule scianka-informacje onas.html
+RewriteRule jak-zaczac-wspinanie jakzaczac.html
+RewriteRule sekcje-wspinaczkowe sekcje.html
+RewriteRule kursy-wspinaczki-wysokosciowe kursy.html
+RewriteRule urodziny-na-sciance urodziny.html
+RewriteRule cennik cennik.html
+RewriteRule kursy-wspinaczkowe-skalkowe kursy.html
+RewriteRule kontakt kontakt.html
