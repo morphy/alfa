@@ -5,15 +5,23 @@ html, body
   background-image: linear-gradient(45deg, #111, #222);
 }
 
-.py-20px
+#bg1
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 100%;
+  background-image: url('img/bg1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.mt-40px
+.background
 {
-  margin-top: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Logo */
@@ -31,6 +39,8 @@ html, body
   color: #fff;
   outline: 0;
 }
+
+/* Menu */
 
 .nav
 {
@@ -55,6 +65,61 @@ html, body
 .nav-link:focus
 {
   outline: 0;
+}
+
+/* Cards */
+
+.card
+{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-title
+{
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.card-text
+{
+  font-family: Poppins
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+
+.btn
+{
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 17px 10px;
+  min-width: 180px;
+  border-radius: 0;
+  border-width: 2px;
+  transition: 0.3s;
+}
+
+.btn-primary
+{
+  background-color: #e8441d;
+  border-color: #e8441d;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus
+{
+  background-color: #be3413 !important;
+  border-color: #be3413 !important;
+  box-shadow: none !important;
 }
 
 
