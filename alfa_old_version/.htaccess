@@ -1,8 +1,4 @@
-### PROTECT FILES ###
-<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
-Order Allow,Deny
-Deny from all
-</FilesMatch>
+DirectoryIndex index.html
 
 RewriteEngine on
 RewriteRule scianka-wspinaczkowa-gdansk index.html
