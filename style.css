@@ -113,6 +113,14 @@ p
   outline: 0;
 }
 
+@media screen and (max-width: 1199px)
+{
+  .logo-text, .logo-text:hover, .logo-text:focus
+  {
+    font-size: 20px;
+  }
+}
+
 /* Menu */
 
 .nav
