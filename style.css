@@ -255,6 +255,13 @@ i
   box-shadow: none !important;
 }
 
+/* Video */
+
+.vid
+{
+  max-width: 520px;
+}
+
 
 
 
