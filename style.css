@@ -21,6 +21,7 @@ html, body
   background-image: url('img/bg1.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
 }
 
 .background
@@ -54,12 +55,36 @@ h1
   text-transform: uppercase;
 }
 
+h2
+{
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
 p
 {
   font-family: Poppins;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 0;
+}
+
+p a
+{
+  color: #e8441d !important;
+  cursor: pointer;
+}
+
+p a:hover
+{
+  text-decoration: underline !important;
+}
+
+.s-20
+{
+  font-size: 20px;
 }
 
 .s-16
