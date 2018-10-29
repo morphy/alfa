@@ -40,6 +40,11 @@ html, body
   background-color: #fff;
 }
 
+.bg-gray
+{
+  background-color: #f5f5f5;
+}
+
 .bg-black
 {
   background-color: #1c1a1b;
@@ -60,6 +65,14 @@ h2
   font-family: Oswald;
   font-weight: 400;
   font-size: 80px;
+  text-transform: uppercase;
+}
+
+h3
+{
+  font-family: Oswald;
+  font-weight: 400;
+  font-size: 60px;
   text-transform: uppercase;
 }
 
@@ -85,6 +98,11 @@ p a:hover
 .s-20
 {
   font-size: 20px;
+}
+
+.s-18
+{
+  font-size: 18px;
 }
 
 .s-16
