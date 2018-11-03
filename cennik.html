@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   </head>
   <body>
+    <div class="preloader"></div>
     <div id="bg1" class="d-flex flex-column" style="height:40%;">
       <div class="container">
         <div class="row py-4">
@@ -107,7 +108,7 @@
         </div>
       </div>
     </section>
-    <footer class="bg-black">
+    <div class="bg-black">
       <div class="container">
       <div class="row py-lg-5 py-4"></div>
       <div class="row">
@@ -177,6 +178,18 @@
       </div>
       <div class="row py-lg-5"></div>
     </div>
-    </footer>
+    </div>
+    <script>
+
+      var preloader = document.getElementsByClassName('preloader')[0];
+      preloader.style.display = 'block';
+
+      window.addEventListener('load', function()
+      {
+        preloader.style.opacity = 0;
+        preloader.style.visibility = 'hidden';
+      });
+
+    </script>
   </body>
 </html>

@@ -39,8 +39,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="37.804863"
-     inkscape:cy="37.317302"
+     inkscape:cx="-0.83347158"
+     inkscape:cy="36.812226"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,17 +73,27 @@
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#e8441d;stroke-width:1.63651216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99607843"
        d="m 87.888572,978.24523 -39.445447,-3.73515 -18.292579,15.18331 c -1.341767,28.55081 0,0 -1.341767,28.55081 9.753865,22.1977 0,0 9.753865,22.1977 -12.062717,-3.2321 -27.835281,-18.2405 -27.835281,-38.9348 0,-22.93784 18.594786,-41.53263 41.532618,-41.53263 19.985821,0 30.676617,9.69369 35.628591,18.27076 z"
-       id="path4150"
+       id="wall"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccsc" />
+       sodipodi:nodetypes="ccccccsc"
+       inkscape:label="#path4150" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#e8441d;stroke-width:1.63651216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 65.691636,1000.5329 0.08856,-24.11792 -35.365108,17.88919 4.188165,37.00323 15.767437,12.0592"
-       id="path4164"
+       id="web"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:label="#path4164">
+       <animate
+        attributeName="d"
+        dur="2s"
+        values="m 65.691636,1000.5329 0.08856,-24.11792 -35.365108,17.88919 4.188165,37.00323 15.767437,12.0592;m 65.691636,1015.5332 0.08856,-39.11822 -35.365108,17.88919 4.188165,37.00323 15.767437,12.0592;m 65.691636,1000.5329 0.08856,-24.11792 -35.365108,17.88919 4.188165,37.00323 15.767437,12.0592"
+        repeatCount="indefinite"
+        />
+      </path>
     <g
-       id="g4195">
+       id="spider"
+       inkscape:label="#g4195">
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -138,6 +148,12 @@
          id="path4167"
          d="m 70.562452,1003.8982 c 0,0.428 -0.03811,5.9333 0.628618,6.1567 6.671251,2.3874 2.942135,4.8837 -0.342214,3.5037 3.83,9.0996 -6.788762,6.4147 -5.673573,0.5259 -4.287241,1.6153 -6.691277,2.4669 -4.146136,-3.782 -1.028043,-0.8977 -1.926114,-3.1705 -1.389142,-5.3711 0.664008,-2.7211 2.011143,-4.428 4.309942,-4.428 2.298795,0 6.612505,1.6829 6.612505,3.3948 z"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#e8441d;stroke-width:1.63651216;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 15;0 0"
+        dur="2s"
+        repeatCount="indefinite" />
     </g>
     <path
        style="opacity:0;fill:none;fill-opacity:1;stroke:#e8441d;stroke-width:3.66894078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -152,7 +168,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssssss" />
     <g
-       id="g4224">
+       id="text"
+       inkscape:label="#g4224">
       <g
          transform="matrix(0.46757491,0,0,0.46757491,0.10078651,553.29065)"
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e8441d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

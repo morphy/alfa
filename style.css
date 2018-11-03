@@ -13,6 +13,25 @@ html, body
   }
 }
 
+.preloader
+{
+  display: none;
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: #1a1b1c;
+  background-image: url('img/logo_animated.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  transition: 0.8s;
+}
+
 /* Backgrounds */
 
 #bg1
